@@ -1,0 +1,1 @@
+import css from "./assets/main.scss";

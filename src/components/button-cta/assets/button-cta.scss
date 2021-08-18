@@ -1,0 +1,29 @@
+.button-cta {
+    background-color: #fff;
+    color: var(--color-primary);
+    font-family: var(--landing-page-heading-font);
+    font-weight: 400;
+    font-size: 1.8rem;
+    width: 20rem;
+    height: 5.6rem;
+    line-height: 5.6rem;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-radius: 2.8rem;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.25);
+}
+
+.button-cta:hover,
+.button-cta:focus {
+    background-color: var(--color-primary-active);
+    color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+    .button-cta {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        height: 4rem;
+    }
+}
