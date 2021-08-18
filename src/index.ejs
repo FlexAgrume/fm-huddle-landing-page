@@ -13,12 +13,12 @@
 
   <div class="landing-page">
     <div class="landing-page__container">
-      <header class="landing-page__header" role="banner">
+      <header class="landing-page__header">
         <%= require('./components/logo/logo.ejs')() %>
       </header>
   
       <div class="landing-page__illustration">
-        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups" role="figure">
+        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups" referrerpolicy="no-referrer">
       </div>
   
       <div class="landing-page__content" role="main">
@@ -30,7 +30,7 @@
         <%= require('./components/button-cta/button-cta.ejs')() %>
       </div>
   
-      <footer class="landing-page__footer" role="contentinfo">
+      <footer class="landing-page__footer">
         <%= require('./components/social-networks/social-networks.ejs')() %>
       </footer>
     </div>
