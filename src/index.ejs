@@ -13,15 +13,15 @@
 
   <div class="landing-page">
     <div class="landing-page__container">
-      <header class="landing-page__header">
+      <header class="landing-page__header" role="banner">
         <%= require('./components/logo/logo.ejs')() %>
       </header>
   
       <div class="landing-page__illustration">
-        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups">
+        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups" role="figure">
       </div>
   
-      <div class="landing-page__content">
+      <div class="landing-page__content" role="main">
         <h1 class="landing-page__title">Build The Community Your Fans Will Love</h1>
         <p class="landing-page__copy">
           Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
@@ -30,7 +30,7 @@
         <%= require('./components/button-cta/button-cta.ejs')() %>
       </div>
   
-      <footer class="landing-page__footer">
+      <footer class="landing-page__footer" role="contentinfo">
         <%= require('./components/social-networks/social-networks.ejs')() %>
       </footer>
     </div>
