@@ -12,13 +12,13 @@
 <body>
 
   <div class="landing-page">
-    <div class="landing-page__container">
+    <div class="landing-page__container" role="main">
       <header class="landing-page__header">
         <%= require('./components/logo/logo.ejs')() %>
       </header>
   
       <div class="landing-page__illustration">
-        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups" referrerpolicy="no-referrer">
+        <img src="<%= require('./assets/images/illustration-mockups.svg') %>" alt="Illustration Mockups" referrerpolicy="no-referrer" aria-hidden="true">
       </div>
   
       <div class="landing-page__content" role="main">
