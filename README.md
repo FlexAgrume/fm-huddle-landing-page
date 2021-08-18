@@ -1,6 +1,6 @@
-# Frontend Mentor - FAQ accordion card solution
+# Frontend Mentor - Huddle Landing Page solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](#). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle Landing Page challenge on Frontend Mentor](#). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](./screenshot.jpg)
 
 ### Links
 
@@ -105,10 +105,10 @@ module.exports = {
 
 ### Useful resources
 
-- [CSS-Trick](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS-Trick - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grafikart - Create a container (French content)](https://grafikart.fr/tutoriels/conteneur-css-1233)
 - [Grafikart - display: grid; (French content)](https://grafikart.fr/tutoriels/grid-css-1002)
-- [Webpack](https://webpack.js.org/configuration/)
+- [Webpack - Configuration](https://webpack.js.org/configuration/)
 - [Webpack - Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/)
 - [Browserslist](https://github.com/browserslist/browserslist)
 - [PostCSS - Autoprefixer](https://github.com/postcss/autoprefixer)
